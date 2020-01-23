@@ -15,9 +15,9 @@ import (
 
 	restclient "k8s.io/client-go/rest"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/executors/cmdexec"
 	"github.com/jojoxd/heketi/pkg/remoteexec/kube"
-	"github.com/heketi/tests"
 )
 
 func init() {

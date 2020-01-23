@@ -19,10 +19,10 @@ import (
 
 	"github.com/gorilla/mux"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/logging"
 	"github.com/jojoxd/heketi/pkg/utils"
-	"github.com/heketi/tests"
 )
 
 func TestGetLogLevelNoLog(t *testing.T) {

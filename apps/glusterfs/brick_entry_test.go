@@ -15,9 +15,9 @@ import (
 	"testing"
 
 	"github.com/boltdb/bolt"
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/executors"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
-	"github.com/heketi/tests"
 )
 
 func TestNewBrickEntry(t *testing.T) {

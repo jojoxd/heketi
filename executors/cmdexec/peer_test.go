@@ -12,8 +12,8 @@ package cmdexec
 import (
 	"testing"
 
-	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 	"github.com/heketi/tests"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 func TestSshExecPeerProbe(t *testing.T) {

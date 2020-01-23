@@ -12,8 +12,8 @@ package glusterfs
 import (
 	"testing"
 
-	"github.com/jojoxd/heketi/executors"
 	"github.com/heketi/tests"
+	"github.com/jojoxd/heketi/executors"
 )
 
 func TestNoneDurabilityDefaults(t *testing.T) {

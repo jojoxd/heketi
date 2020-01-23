@@ -20,13 +20,13 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/gorilla/mux"
+	"github.com/heketi/tests"
 	client "github.com/jojoxd/heketi/client/api/go-client"
 	"github.com/jojoxd/heketi/executors"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/idgen"
 	"github.com/jojoxd/heketi/pkg/sortedstrings"
 	"github.com/jojoxd/heketi/pkg/utils"
-	"github.com/heketi/tests"
 )
 
 func TestDeviceAddBadRequests(t *testing.T) {

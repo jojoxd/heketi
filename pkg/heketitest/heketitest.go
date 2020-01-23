@@ -14,9 +14,9 @@ import (
 	"os"
 
 	"github.com/gorilla/mux"
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/apps/glusterfs"
 	"github.com/jojoxd/heketi/middleware"
-	"github.com/heketi/tests"
 	"github.com/lpabon/godbc"
 	"github.com/urfave/negroni"
 )

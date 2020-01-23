@@ -12,9 +12,9 @@ package heketitest
 import (
 	"testing"
 
+	"github.com/heketi/tests"
 	client "github.com/jojoxd/heketi/client/api/go-client"
 	glusterapi "github.com/jojoxd/heketi/pkg/glusterfs/api"
-	"github.com/heketi/tests"
 )
 
 func TestNewHeketiMockTestServer(t *testing.T) {

@@ -13,10 +13,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/executors/cmdexec"
 	"github.com/jojoxd/heketi/pkg/logging"
 	rex "github.com/jojoxd/heketi/pkg/remoteexec"
-	"github.com/heketi/tests"
 )
 
 // Mock SSH calls

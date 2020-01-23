@@ -16,8 +16,8 @@ import (
 	"testing"
 
 	"github.com/boltdb/bolt"
-	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/heketi/tests"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 )
 
 func buildCluster(app *App) {

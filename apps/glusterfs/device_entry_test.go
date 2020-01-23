@@ -17,11 +17,11 @@ import (
 	"testing"
 
 	"github.com/boltdb/bolt"
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/executors"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/idgen"
 	"github.com/jojoxd/heketi/pkg/sortedstrings"
-	"github.com/heketi/tests"
 )
 
 func createSampleDeviceEntry(nodeid string, disksize uint64) *DeviceEntry {

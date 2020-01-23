@@ -17,9 +17,9 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/gorilla/mux"
+	"github.com/heketi/tests"
 	client "github.com/jojoxd/heketi/client/api/go-client"
 	"github.com/jojoxd/heketi/pkg/logging"
-	"github.com/heketi/tests"
 )
 
 func TestAppAdvsettings(t *testing.T) {

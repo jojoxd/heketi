@@ -13,8 +13,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jojoxd/heketi/pkg/idgen"
 	"github.com/heketi/tests"
+	"github.com/jojoxd/heketi/pkg/idgen"
 )
 
 func TestNewSimpleAllocatorRing(t *testing.T) {

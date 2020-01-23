@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/executors"
 	conv "github.com/jojoxd/heketi/pkg/conversions"
 	"github.com/jojoxd/heketi/pkg/paths"
 	rex "github.com/jojoxd/heketi/pkg/remoteexec"
-	"github.com/heketi/tests"
 )
 
 func doTestSshExecBrickCreate(t *testing.T, f *CommandFaker, s *FakeExecutor) {

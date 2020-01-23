@@ -25,9 +25,9 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/gorilla/mux"
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/utils"
-	"github.com/heketi/tests"
 )
 
 func TestBlockVolumeCreateBadJson(t *testing.T) {

@@ -19,8 +19,8 @@ import (
 	"testing"
 
 	//"github.com/boltdb/bolt"
-	wdb "github.com/jojoxd/heketi/pkg/db"
 	"github.com/heketi/tests"
+	wdb "github.com/jojoxd/heketi/pkg/db"
 )
 
 func TestBackupToKubeSecretMaxSize(t *testing.T) {

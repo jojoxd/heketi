@@ -26,8 +26,8 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/context"
-	"github.com/jojoxd/heketi/pkg/utils"
 	"github.com/heketi/tests"
+	"github.com/jojoxd/heketi/pkg/utils"
 	"github.com/urfave/negroni"
 )
 
