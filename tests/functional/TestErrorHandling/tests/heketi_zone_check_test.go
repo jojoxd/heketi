@@ -19,10 +19,10 @@ import (
 	"path"
 	"testing"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/testutils"
 	"github.com/jojoxd/heketi/server/config"
-	"github.com/heketi/tests"
 )
 
 func TestVolumeCreateMultipleZone(t *testing.T) {

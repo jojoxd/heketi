@@ -15,12 +15,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/heketi/tests"
 	client "github.com/jojoxd/heketi/client/api/go-client"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/logging"
 	"github.com/jojoxd/heketi/pkg/testutils"
 	"github.com/jojoxd/heketi/pkg/utils"
-	"github.com/heketi/tests"
 )
 
 // These are the settings for the vagrant file

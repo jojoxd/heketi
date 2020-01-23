@@ -14,8 +14,8 @@ package functional
 import (
 	"testing"
 
-	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/heketi/tests"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 )
 
 func TestCloneVolume(t *testing.T) {

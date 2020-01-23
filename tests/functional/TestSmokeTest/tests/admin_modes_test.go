@@ -17,8 +17,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/heketi/tests"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 )
 
 func TestAdminModes(t *testing.T) {

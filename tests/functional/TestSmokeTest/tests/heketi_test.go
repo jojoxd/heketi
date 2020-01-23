@@ -15,11 +15,11 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/logging"
 	"github.com/jojoxd/heketi/pkg/testutils"
 	"github.com/jojoxd/heketi/pkg/utils"
-	"github.com/heketi/tests"
 )
 
 var (

@@ -16,9 +16,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/testutils"
-	"github.com/heketi/tests"
 )
 
 func TestPartialDeletes(t *testing.T) {

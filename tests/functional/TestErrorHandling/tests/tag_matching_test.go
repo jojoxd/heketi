@@ -19,9 +19,9 @@ import (
 	"path"
 	"testing"
 
+	"github.com/heketi/tests"
 	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/jojoxd/heketi/pkg/testutils"
-	"github.com/heketi/tests"
 )
 
 func TestVolumeCreateTagMatchingRules(t *testing.T) {
