@@ -68,7 +68,7 @@ func TestLogDebug(t *testing.T) {
 	filename := strings.Split(fileinfo, ":")[0]
 
 	// Need to check that it starts with heketi/
-	tests.Assert(t, strings.HasPrefix(filename, "heketi/"))
+	tests.Assert(t, strings.HasPrefix(filename, "jojoxd/"))
 	tests.Assert(t, strings.HasSuffix(filename, "/pkg/logging/log_test.go"))
 	testbuffer.Reset()
 
