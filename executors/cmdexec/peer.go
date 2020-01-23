@@ -14,7 +14,7 @@ import (
 
 	"github.com/lpabon/godbc"
 
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 // :TODO: Rename this function to NodeInit or something

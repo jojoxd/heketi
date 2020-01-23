@@ -18,8 +18,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/heketi/heketi/pkg/logging"
-	"github.com/heketi/heketi/pkg/remoteexec/ssh"
+	"github.com/jojoxd/heketi/pkg/logging"
+	"github.com/jojoxd/heketi/pkg/remoteexec/ssh"
 )
 
 var (

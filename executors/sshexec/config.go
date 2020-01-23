@@ -10,7 +10,7 @@
 package sshexec
 
 import (
-	"github.com/heketi/heketi/executors/cmdexec"
+	"github.com/jojoxd/heketi/executors/cmdexec"
 )
 
 type SshConfig struct {

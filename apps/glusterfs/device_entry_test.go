@@ -17,10 +17,10 @@ import (
 	"testing"
 
 	"github.com/boltdb/bolt"
-	"github.com/heketi/heketi/executors"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/idgen"
-	"github.com/heketi/heketi/pkg/sortedstrings"
+	"github.com/jojoxd/heketi/executors"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/sortedstrings"
 	"github.com/heketi/tests"
 )
 

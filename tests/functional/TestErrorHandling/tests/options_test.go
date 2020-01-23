@@ -22,11 +22,11 @@ import (
 
 	"github.com/heketi/tests"
 
-	client "github.com/heketi/heketi/client/api/go-client"
-	"github.com/heketi/heketi/middleware"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/testutils"
-	"github.com/heketi/heketi/server/config"
+	client "github.com/jojoxd/heketi/client/api/go-client"
+	"github.com/jojoxd/heketi/middleware"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/testutils"
+	"github.com/jojoxd/heketi/server/config"
 )
 
 func TestBlockVolumeAllocDefaults(t *testing.T) {

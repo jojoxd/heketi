@@ -22,11 +22,11 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/gorilla/mux"
-	client "github.com/heketi/heketi/client/api/go-client"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/idgen"
-	"github.com/heketi/heketi/pkg/sortedstrings"
-	"github.com/heketi/heketi/pkg/utils"
+	client "github.com/jojoxd/heketi/client/api/go-client"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/sortedstrings"
+	"github.com/jojoxd/heketi/pkg/utils"
 	"github.com/heketi/tests"
 )
 

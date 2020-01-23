@@ -13,9 +13,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/heketi/heketi/executors/cmdexec"
-	"github.com/heketi/heketi/pkg/logging"
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	"github.com/jojoxd/heketi/executors/cmdexec"
+	"github.com/jojoxd/heketi/pkg/logging"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 	"github.com/heketi/tests"
 )
 

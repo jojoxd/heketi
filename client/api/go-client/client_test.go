@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/heketi/heketi/apps/glusterfs"
-	"github.com/heketi/heketi/middleware"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/idgen"
-	"github.com/heketi/heketi/pkg/utils"
-	"github.com/heketi/heketi/server/admin"
+	"github.com/jojoxd/heketi/apps/glusterfs"
+	"github.com/jojoxd/heketi/middleware"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/utils"
+	"github.com/jojoxd/heketi/server/admin"
 	"github.com/heketi/tests"
 	"github.com/urfave/negroni"
 )

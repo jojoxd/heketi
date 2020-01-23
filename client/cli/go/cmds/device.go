@@ -15,8 +15,8 @@ import (
 	"fmt"
 	"strings"
 
-	client "github.com/heketi/heketi/client/api/go-client"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
+	client "github.com/jojoxd/heketi/client/api/go-client"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/spf13/cobra"
 )
 

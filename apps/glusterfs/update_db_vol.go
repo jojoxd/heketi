@@ -14,8 +14,8 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/heketi/heketi/executors"
-	"github.com/heketi/heketi/pkg/db"
+	"github.com/jojoxd/heketi/executors"
+	"github.com/jojoxd/heketi/pkg/db"
 )
 
 func UpdateDbVol(app *App, volName string) error {

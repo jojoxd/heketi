@@ -14,7 +14,7 @@ package functional
 import (
 	"testing"
 
-	"github.com/heketi/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/heketi/tests"
 )
 

@@ -10,7 +10,7 @@
 package stack
 
 import (
-	"github.com/heketi/heketi/executors"
+	"github.com/jojoxd/heketi/executors"
 )
 
 var (

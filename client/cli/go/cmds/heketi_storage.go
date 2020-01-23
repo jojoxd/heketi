@@ -16,9 +16,9 @@ import (
 	"os"
 	"strings"
 
-	client "github.com/heketi/heketi/client/api/go-client"
-	"github.com/heketi/heketi/pkg/db"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
+	client "github.com/jojoxd/heketi/client/api/go-client"
+	"github.com/jojoxd/heketi/pkg/db"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/spf13/cobra"
 
 	batch "k8s.io/api/batch/v1"

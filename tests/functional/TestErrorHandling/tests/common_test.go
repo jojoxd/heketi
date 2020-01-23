@@ -19,9 +19,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/heketi/heketi/pkg/logging"
-	"github.com/heketi/heketi/pkg/testutils"
-	"github.com/heketi/heketi/server/config"
+	"github.com/jojoxd/heketi/pkg/logging"
+	"github.com/jojoxd/heketi/pkg/testutils"
+	"github.com/jojoxd/heketi/server/config"
 )
 
 var (

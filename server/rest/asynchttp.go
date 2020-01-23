@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/heketi/heketi/pkg/idgen"
-	"github.com/heketi/heketi/pkg/logging"
+	"github.com/jojoxd/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/logging"
 	"github.com/lpabon/godbc"
 )
 

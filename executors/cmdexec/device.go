@@ -16,10 +16,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/heketi/heketi/executors"
-	conv "github.com/heketi/heketi/pkg/conversions"
-	"github.com/heketi/heketi/pkg/paths"
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	"github.com/jojoxd/heketi/executors"
+	conv "github.com/jojoxd/heketi/pkg/conversions"
+	"github.com/jojoxd/heketi/pkg/paths"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 const (

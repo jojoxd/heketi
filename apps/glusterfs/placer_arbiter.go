@@ -12,7 +12,7 @@ package glusterfs
 import (
 	"fmt"
 
-	"github.com/heketi/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/idgen"
 )
 
 var (

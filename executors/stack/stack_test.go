@@ -15,8 +15,8 @@ import (
 
 	"github.com/heketi/tests"
 
-	"github.com/heketi/heketi/executors"
-	"github.com/heketi/heketi/executors/mockexec"
+	"github.com/jojoxd/heketi/executors"
+	"github.com/jojoxd/heketi/executors/mockexec"
 )
 
 func TestNewExecutorStack(t *testing.T) {

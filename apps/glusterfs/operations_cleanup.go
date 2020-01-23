@@ -13,8 +13,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/heketi/heketi/executors"
-	wdb "github.com/heketi/heketi/pkg/db"
+	"github.com/jojoxd/heketi/executors"
+	wdb "github.com/jojoxd/heketi/pkg/db"
 
 	"github.com/boltdb/bolt"
 )

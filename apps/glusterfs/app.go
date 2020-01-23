@@ -21,13 +21,13 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/lpabon/godbc"
 
-	"github.com/heketi/heketi/executors"
-	"github.com/heketi/heketi/executors/injectexec"
-	"github.com/heketi/heketi/executors/kubeexec"
-	"github.com/heketi/heketi/executors/mockexec"
-	"github.com/heketi/heketi/executors/sshexec"
-	"github.com/heketi/heketi/pkg/logging"
-	"github.com/heketi/heketi/server/rest"
+	"github.com/jojoxd/heketi/executors"
+	"github.com/jojoxd/heketi/executors/injectexec"
+	"github.com/jojoxd/heketi/executors/kubeexec"
+	"github.com/jojoxd/heketi/executors/mockexec"
+	"github.com/jojoxd/heketi/executors/sshexec"
+	"github.com/jojoxd/heketi/pkg/logging"
+	"github.com/jojoxd/heketi/server/rest"
 )
 
 const (

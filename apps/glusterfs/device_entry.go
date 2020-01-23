@@ -16,11 +16,11 @@ import (
 	"sort"
 
 	"github.com/boltdb/bolt"
-	"github.com/heketi/heketi/executors"
-	wdb "github.com/heketi/heketi/pkg/db"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/idgen"
-	"github.com/heketi/heketi/pkg/sortedstrings"
+	"github.com/jojoxd/heketi/executors"
+	wdb "github.com/jojoxd/heketi/pkg/db"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/sortedstrings"
 	"github.com/lpabon/godbc"
 )
 

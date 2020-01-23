@@ -17,9 +17,9 @@ package client_tls_test
 import (
 	"testing"
 
-	client "github.com/heketi/heketi/client/api/go-client"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	tutils "github.com/heketi/heketi/pkg/testutils"
+	client "github.com/jojoxd/heketi/client/api/go-client"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	tutils "github.com/jojoxd/heketi/pkg/testutils"
 
 	"github.com/heketi/tests"
 )

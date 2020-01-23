@@ -23,10 +23,10 @@ import (
 
 	"github.com/heketi/tests"
 
-	inj "github.com/heketi/heketi/executors/injectexec"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/testutils"
-	"github.com/heketi/heketi/server/config"
+	inj "github.com/jojoxd/heketi/executors/injectexec"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/testutils"
+	"github.com/jojoxd/heketi/server/config"
 )
 
 func TestOfflineCleanup(t *testing.T) {

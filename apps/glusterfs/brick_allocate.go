@@ -15,7 +15,7 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/lpabon/godbc"
 
-	"github.com/heketi/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/idgen"
 )
 
 type BrickSet struct {

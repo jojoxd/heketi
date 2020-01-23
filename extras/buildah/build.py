@@ -40,9 +40,9 @@ def buildah_from(src):
 
 def build_binaries(outdir, build_image_base):
     pkgs = 'glide golang git make mercurial'
-    hdir = '/build/src/github.com/heketi/heketi'
+    hdir = '/build/src/github.com/jojoxd/heketi'
     heketi_branch = 'master'
-    heketi_url = 'https://github.com/heketi/heketi.git'
+    heketi_url = 'https://github.com/jojoxd/heketi.git'
 
     bc = buildah_from(build_image_base)
     buildah('run', bc, 'dnf', '-y', 'install', *pkgs.split())

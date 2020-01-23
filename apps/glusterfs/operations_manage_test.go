@@ -14,7 +14,7 @@ import (
 
 	"github.com/heketi/tests"
 
-	"github.com/heketi/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/idgen"
 )
 
 func TestOpTrackerCounts(t *testing.T) {

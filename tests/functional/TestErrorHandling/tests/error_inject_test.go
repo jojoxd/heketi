@@ -22,11 +22,11 @@ import (
 
 	"github.com/heketi/tests"
 
-	client "github.com/heketi/heketi/client/api/go-client"
-	inj "github.com/heketi/heketi/executors/injectexec"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/testutils"
-	"github.com/heketi/heketi/server/config"
+	client "github.com/jojoxd/heketi/client/api/go-client"
+	inj "github.com/jojoxd/heketi/executors/injectexec"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/testutils"
+	"github.com/jojoxd/heketi/server/config"
 )
 
 func TestHeketiStart(t *testing.T) {

@@ -15,7 +15,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/heketi/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 	"github.com/spf13/cobra"
 )
 

@@ -10,7 +10,7 @@
 package glusterfs
 
 import (
-	"github.com/heketi/heketi/executors"
+	"github.com/jojoxd/heketi/executors"
 )
 
 type VolumeDurability interface {

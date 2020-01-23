@@ -10,7 +10,7 @@
 package cmdexec
 
 import (
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 type CommandFaker struct {

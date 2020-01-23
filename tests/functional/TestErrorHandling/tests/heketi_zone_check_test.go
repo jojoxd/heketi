@@ -19,9 +19,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/testutils"
-	"github.com/heketi/heketi/server/config"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/testutils"
+	"github.com/jojoxd/heketi/server/config"
 	"github.com/heketi/tests"
 )
 

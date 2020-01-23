@@ -10,7 +10,7 @@
 package log
 
 import (
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 // Logger interface exists to allow the library to use a

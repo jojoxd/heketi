@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/heketi/heketi/executors"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/executors"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 
 	"github.com/boltdb/bolt"
 	"github.com/heketi/tests"

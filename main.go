@@ -26,12 +26,12 @@ import (
 	"github.com/urfave/negroni"
 	restclient "k8s.io/client-go/rest"
 
-	"github.com/heketi/heketi/apps/glusterfs"
-	"github.com/heketi/heketi/middleware"
-	"github.com/heketi/heketi/pkg/metrics"
-	"github.com/heketi/heketi/server/admin"
-	"github.com/heketi/heketi/server/config"
-	"github.com/heketi/heketi/server/profiling"
+	"github.com/jojoxd/heketi/apps/glusterfs"
+	"github.com/jojoxd/heketi/middleware"
+	"github.com/jojoxd/heketi/pkg/metrics"
+	"github.com/jojoxd/heketi/server/admin"
+	"github.com/jojoxd/heketi/server/config"
+	"github.com/jojoxd/heketi/server/profiling"
 )
 
 var (

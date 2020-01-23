@@ -10,8 +10,8 @@
 package injectexec
 
 import (
-	"github.com/heketi/heketi/executors/cmdexec"
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	"github.com/jojoxd/heketi/executors/cmdexec"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 // WrapCommandTransport can be used to replace a real transport

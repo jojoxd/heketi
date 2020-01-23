@@ -13,7 +13,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/heketi/heketi/client/cli/go/cmds"
+	"github.com/jojoxd/heketi/client/cli/go/cmds"
 )
 
 var (

@@ -22,12 +22,12 @@ import (
 
 	"github.com/heketi/tests"
 
-	inj "github.com/heketi/heketi/executors/injectexec"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	rex "github.com/heketi/heketi/pkg/remoteexec"
-	"github.com/heketi/heketi/pkg/remoteexec/ssh"
-	"github.com/heketi/heketi/pkg/testutils"
-	"github.com/heketi/heketi/server/config"
+	inj "github.com/jojoxd/heketi/executors/injectexec"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
+	"github.com/jojoxd/heketi/pkg/remoteexec/ssh"
+	"github.com/jojoxd/heketi/pkg/testutils"
+	"github.com/jojoxd/heketi/server/config"
 )
 
 func TestDeviceAddRemoveSymlink(t *testing.T) {

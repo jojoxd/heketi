@@ -10,8 +10,8 @@
 package injectexec
 
 import (
-	"github.com/heketi/heketi/executors"
-	"github.com/heketi/heketi/executors/mockexec"
+	"github.com/jojoxd/heketi/executors"
+	"github.com/jojoxd/heketi/executors/mockexec"
 )
 
 var NotSupportedError = executors.NotSupportedError

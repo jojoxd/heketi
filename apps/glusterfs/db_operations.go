@@ -16,8 +16,8 @@ import (
 	"strings"
 
 	"github.com/boltdb/bolt"
-	wdb "github.com/heketi/heketi/pkg/db"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
+	wdb "github.com/jojoxd/heketi/pkg/db"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
 )
 
 func dbDumpInternal(db wdb.DB) (Db, error) {

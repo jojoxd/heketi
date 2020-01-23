@@ -17,8 +17,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/utils"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/utils"
 )
 
 func (c *Client) NodeAdd(request *api.NodeAddRequest) (*api.NodeInfoResponse, error) {

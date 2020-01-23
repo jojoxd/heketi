@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/heketi/heketi/pkg/idgen"
+	"github.com/jojoxd/heketi/pkg/idgen"
 	"github.com/heketi/tests"
 )
 

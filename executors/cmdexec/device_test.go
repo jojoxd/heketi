@@ -15,7 +15,7 @@ import (
 
 	"github.com/heketi/tests"
 
-	"github.com/heketi/heketi/executors"
+	"github.com/jojoxd/heketi/executors"
 )
 
 func TestCheckHandle(t *testing.T) {

@@ -15,8 +15,8 @@ import (
 
 	"github.com/lpabon/godbc"
 
-	"github.com/heketi/heketi/executors"
-	rex "github.com/heketi/heketi/pkg/remoteexec"
+	"github.com/jojoxd/heketi/executors"
+	rex "github.com/jojoxd/heketi/pkg/remoteexec"
 )
 
 func (s *CmdExecutor) snapshotActivate(host string, snapshot string) error {

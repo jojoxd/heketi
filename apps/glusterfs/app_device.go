@@ -17,10 +17,10 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/gorilla/mux"
 
-	"github.com/heketi/heketi/executors"
-	wdb "github.com/heketi/heketi/pkg/db"
-	"github.com/heketi/heketi/pkg/glusterfs/api"
-	"github.com/heketi/heketi/pkg/utils"
+	"github.com/jojoxd/heketi/executors"
+	wdb "github.com/jojoxd/heketi/pkg/db"
+	"github.com/jojoxd/heketi/pkg/glusterfs/api"
+	"github.com/jojoxd/heketi/pkg/utils"
 )
 
 func (a *App) DeviceAdd(w http.ResponseWriter, r *http.Request) {
